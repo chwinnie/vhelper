@@ -33,7 +33,7 @@ var app = {
 					img_url = value.thumbnail_images.thumbnail.url;
 			      $('ul.topcoat-list').append('<li class="topcoat-list__item">' +
 			      	'<h3>'+value.title+'</h3>' +
-			      	'<a class="view-link" href="'+value.title.toLowerCase()+'">' +
+			      	'<a class="view-link" href="#'+value.title.toLowerCase()+'">' +
 			      	'<img src="'+img_url+'" /></a><br>');
 			    });
 			},
